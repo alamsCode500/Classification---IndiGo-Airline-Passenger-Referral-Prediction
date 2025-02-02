@@ -27,9 +27,9 @@ Three classification models were implemented:
 # Model 1 - Random Forest Classifier
 * Best Hyperparameters: { 'n_estimators': 100, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_depth': 20, 'bootstrap': True }
 * Final Accuracy: 95.48%
-# Model 2 - TBD
+# Model 2 - Gradient Boosting Classifier
 * Final Accuracy: 95.16%
-# Model 3 - TBD
+# Model 3 - Logistic Regression
 * Final Accuracy: 94.48%
 
 # Evaluation Metrics
