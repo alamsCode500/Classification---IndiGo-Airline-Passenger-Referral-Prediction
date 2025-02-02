@@ -3,14 +3,14 @@
 This project aims to predict whether a passenger will recommend IndiGo Airlines based on various factors such as service quality, comfort, entertainment, and food & beverages. The classification model is trained on passenger reviews and ratings, using machine learning techniques to enhance customer satisfaction insights and business strategies.
 
 # Dataset
-* # Total Rows: 131,895
-* # Total Columns: 17
+* Total Rows: 131,895
+* Total Columns: 17
 
-* # Key Features:
+# Key Features:
 * Categorical: airline, author, customer_review, aircraft, traveller_type, cabin, route, date_flown, review_date, recommended
 * Numerical: overall, seat_comfort, cabin_service, food_bev, entertainment, ground_service, value_for_money
 
-* # Handling Missing Values:
+# Handling Missing Values:
 * Categorical: Replaced with mode values
 * Numeric Ratings: Filled with median values
 * Dates: Filled with the most frequent date
